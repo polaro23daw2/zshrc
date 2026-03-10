@@ -1,14 +1,9 @@
-# =========================
-#   Configuración Zsh Bonita (Una línea)
-# =========================
-
 # Historial
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt HIST_IGNORE_ALL_DUPS SHARE_HISTORY INC_APPEND_HISTORY
 
-# Calidad de vida
 setopt AUTO_CD
 setopt CORRECT
 setopt PROMPT_SUBST
